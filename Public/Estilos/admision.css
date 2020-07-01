@@ -1,0 +1,19 @@
+
+
+.unity-head {
+  background: url("../../assets/iunity/unity.jpg") center center no-repeat;
+  background-size: cover;
+  height: 265px;
+  width: 100%;
+}
+.unity-head > div {
+  background-color: var(--colorPrimaryTint);
+  height: 100%;
+}
+.unity-head .title-yellow h2 {
+  font-weight: 500;
+  font-size: 2.4em;
+  font-family: "Oswald";
+  color: white;
+  margin-bottom: 0.9em;
+}

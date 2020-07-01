@@ -1,11 +1,10 @@
-
 .news-head {
   background: url("../../assets/news/informe-news.jpg") center center no-repeat;
   background-size: cover;
   height: 265px;
   width: 100%;
 }
-.news-head{
+.news-head {
   margin-bottom: 1em;
 }
 .news-head > div {
@@ -13,20 +12,44 @@
   height: 100%;
   margin-bottom: 1em;
 }
-.nav-router{
+.nav-router {
   margin-bottom: 1em;
   height: auto;
-  font-size: .7em;
- 
+  font-size: 0.7em;
 }
-.nav-router a{
+.nav-router a {
   color: var(--colorPrimary);
   text-decoration: none;
   text-transform: uppercase;
 }
-.article > article h1{
+.article > article h1 {
   font-family: "Oswald";
   font-size: 1.8em;
   font-weight: 700;
   color: var(--colorPrimary);
+}
+section.interest {
+  margin-top: 1em;
+  margin-bottom: 6em;
+}
+.interest-grid{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.head-interest {
+  background-color: var(--colorPrimary);
+  color: white;
+  padding: 0.4em 0.9em;
+  margin-bottom: 2em;
+  margin-top: 2.2em;
+  font-weight: 400;
+}
+.articles a {
+text-decoration: none;
+color: var(--colorPrimary);
+
+}
+hr.div{
+  margin-top: .5em;
+  border: 1px solid var(--textColor);
 }
