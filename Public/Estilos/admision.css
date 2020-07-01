@@ -31,18 +31,23 @@
   height: 50px;
 }
 .icon-info {
-  position:fixed; 
-  top: 30em;
+  position: fixed;
+  bottom: 0;
   left: 80%;
-/*   right: 90%;
+  /*   right: 90%;
   bottom: 3em;
   left: 0; */
 }
 .icon-info img {
   height: 40px;
   border-radius: 40px;
+  transition: 5s;
 }
 
+.icon-info a:active {
+  position: relative;
+  top: 0.5px;
+}
 .modal-perfil-grid {
   display: grid;
   grid-template-columns: 10% 80% 10%;
@@ -87,18 +92,22 @@
 .trans {
   transition: 1s;
 }
-.becas-help{
+.becas-help {
   margin-bottom: 6em;
 }
 .becas-help p {
   margin-top: -0.5em;
-  
 }
 .container.more-info-yellow {
   margin-top: 2em;
- display: flex;
- justify-content: center;
+  display: flex;
+  justify-content: center;
 }
+
+
+
+
+
 .container.more-info-yellow a {
   background-color: var(--btnPpal);
   text-decoration: none;
@@ -106,5 +115,89 @@
   border-radius: 6px;
   color: white;
   font-weight: 600;
-  font-size: 0.9em;
+}
+.modal-dialog {
+  background-color: white;
+  height: 90%;
+  width: 90%;
+  border: 1px solid red;
+  position: fixed;
+  top: 1em;
+  bottom: 1em;
+  left: 1em;
+  right: 1em;
+}
+.modal-dialog-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.header-form {
+  display: grid;
+  height: auto;
+  justify-content: flex-start;
+  margin-top: 1em;
+  border-left: 0.5em solid var(--btnPpal);
+  margin-bottom: 0.5em;
+}
+
+.header-form h1,
+.header-form h2 {
+  font-family: "Oswald";
+  font-weight: 500;
+  margin: 0;
+  margin-left: 0.3em;
+  font-size: 1em;
+}
+.header-form h1 {
+  font-size: 1.4em;
+  margin-top: 0.2em;
+  margin-left: 0.22em;
+}
+.m-98 {
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sub-title {
+  font-size: .8em;
+  margin-bottom: .5em;
+}
+.form-l{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+label {
+  margin-top: .3em;
+  font-size: .8em;
+  margin-bottom: .3em;
+}
+
+input[type=text]{
+  font-family: "Montserrat";
+  font-weight: 300;
+  width: 100%;
+  padding: 8px 20px;
+  margin: 8px 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.acept-politica{
+  font-size: .8em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.acept-politica span{
+  margin-left: .4em;
+}
+.container-btn-form{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 30%;
+}
+.btn-form{
+
 }
