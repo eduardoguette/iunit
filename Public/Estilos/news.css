@@ -1,0 +1,76 @@
+
+
+.news-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-bottom: 3em;
+}
+.titular.news-grid .imag {
+  width: auto;
+  height: 200px;
+  background: url("../../assets/news1.png") center no-repeat;
+  background-size: cover;
+}
+.titular.news-grid2 > .imag{
+  width: auto;
+  height: 200px;
+  background: url("../../assets/news/informe-news.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.area-date {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Oswald";
+  font-weight: 500;
+}
+.btn-section.orange {
+  background: #fbd2b7;
+  border-radius: 0.4em;
+  padding: 0.2em 0.4em;
+  color: #e2634c;
+  font-size: 0.9em;
+}
+.btn-section.blue {
+  background: #daf1f9;
+  border-radius: 0.4em;
+  padding: 0.2em 0.4em;
+  color: var(--colorPrimary);
+  font-size: 0.9em;
+}
+.date {
+  color: var(--colorDate);
+  font-size: 0.8em;
+}
+h2.titular {
+  font-size: 0.95em;
+}
+.news-grid > p {
+  font-size: 0.9em;
+}
+
+.btn-desplegable {
+  color: white;
+  text-decoration: none;
+  font-size: 0.9em;
+  padding-left: 0.8em;
+}
+.button-desplegable i {
+  color: white;
+  font-size: 1.2em;
+  padding-right: 0.5em;
+}
+.name {
+  text-align: center;
+}
+.name h1{
+  font-size: 2em;
+}
+.name hr{
+  width: 6em;
+  border: 3px solid var(--btnPpal);
+  margin-top: -1.9em;
+  margin-bottom: 3em;
+}

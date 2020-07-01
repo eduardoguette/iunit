@@ -1,0 +1,56 @@
+
+
+.unity-head {
+  background: url("../../assets/iunity/unity.jpg") center center no-repeat;
+  background-size: cover;
+  height: 265px;
+  width: 100%;
+}
+.unity-head > div {
+  background-color: var(--colorPrimaryTint);
+  height: 100%;
+}
+.unity-head .title-yellow h2 {
+  font-weight: 500;
+  font-size: 2.4em;
+  font-family: "Oswald";
+  color: white;
+  margin-bottom: 0.9em;
+}
+.desc-news{
+  font-weight: 300;
+  width: 90%;
+  margin: auto;
+}
+
+.container-pag{
+  display: flex;
+  height: 50px;
+  
+  justify-content: center;
+}
+.container-pag a{
+  display: flex;
+  text-decoration: none;
+  padding: .5em;
+  height: .5em;
+  align-items: center;
+
+}
+.container-pag a[class="num"]{
+  color: var(--textColor);
+}
+.is-active{
+  background-color: var(--colorPrimary);
+  border-radius: 3px;
+  color: white;
+}
+.container-pag i{
+  color: var(--colorPrimary);
+}
+/* .container-pag a:not(.is-active){
+color: var(--colorPrimary);
+} */
+.desc-news{
+  margin-bottom: 2em;
+}

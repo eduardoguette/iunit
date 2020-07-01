@@ -1,0 +1,32 @@
+
+.news-head {
+  background: url("../../assets/news/informe-news.jpg") center center no-repeat;
+  background-size: cover;
+  height: 265px;
+  width: 100%;
+}
+.news-head{
+  margin-bottom: 1em;
+}
+.news-head > div {
+  background-color: var(--colorPrimaryTint);
+  height: 100%;
+  margin-bottom: 1em;
+}
+.nav-router{
+  margin-bottom: 1em;
+  height: auto;
+  font-size: .7em;
+ 
+}
+.nav-router a{
+  color: var(--colorPrimary);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.article > article h1{
+  font-family: "Oswald";
+  font-size: 1.2em;
+  font-weight: 700;
+  color: var(--colorPrimary);
+}

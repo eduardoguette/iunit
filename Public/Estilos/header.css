@@ -1,0 +1,9 @@
+.header {
+  display: flex;
+  padding: 1em 1.3em;
+  justify-content: space-between;
+  background-color: var(--colorPrimary);
+}
+img {
+  height: 45px;
+}

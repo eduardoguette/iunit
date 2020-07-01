@@ -1,0 +1,56 @@
+
+
+footer{
+  height: auto;
+  background: url("../../assets/footer-o.png") center center no-repeat;
+  background-size: cover;
+
+}
+.container-footer-grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 1em 1em 0 1em;
+}
+.iunit-footer{
+  margin-top: 1em;
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+}
+.social img{
+  height: 30px;
+}
+.social a {
+ text-decoration: none;
+}
+.iunit-footer p{
+  font-weight: 800;
+  margin-right: .2em;
+}
+p.left{
+  text-align: left;
+}
+
+
+.urja img{
+  margin-top: -.8em;
+  height: 5em;
+}
+.hr-footer{
+  width: 90%;
+  border-bottom: .0001em solid white;
+}
+footer p{
+  text-align: center;
+  font-weight: 200;
+  color: white;
+  font-size: .8em;
+}
+
+
+

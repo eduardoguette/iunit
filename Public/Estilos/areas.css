@@ -1,0 +1,98 @@
+.areas {
+  margin-top: 50px;
+
+  text-align: center;
+}
+.areas-for {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  text-align: center;
+margin-bottom: 1em;
+}
+
+.areas-for > h1 {
+  font-family: "Oswald";
+  color: var(--blueAquaTra);
+  font-size: 3.4em;
+  padding: 0;
+  margin: 0;
+  letter-spacing: .09em;
+  text-align: center;
+  margin-left: .1em;
+
+}
+.title-yellow.areas-for{
+  font-size: 1.05em;
+  margin-top: -3.9em;
+}
+.area-item {
+  color: black;
+  height: 23em;
+  border-radius: 10px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 1.11em;
+}
+.area-item h1 {
+  font-family: "Oswald";
+  font-size: 1.22em;
+  font-weight: 500;
+  text-align: left;
+  padding: 0 0.7em;
+  color: black;
+}
+
+.area-item p {
+  font-weight: 300;
+  text-align: left;
+  padding: 0 0.8em;
+}
+.area-item a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+  padding: 0 0.8em;
+}
+.read-more {
+  text-decoration: none;
+}
+.btn.read-more:hover {
+  color: var(--colorPrimary);
+}
+.btn.read-more:hover i {
+  color: var(--colorPrimary);
+  transform: translateX(10px);
+  transition: 0.4s;
+  will-change: transform;
+}
+.btn.read-more i {
+  margin-left: 0.89em;
+}
+
+.negocio {
+  background-color: #eff8ff;
+}
+.innovacion {
+  background-color: #fee9b2;
+}
+.tecnologia {
+  background-color: #fbd1b8;
+}
+.docencia {
+  background-color: #a6b1e1;
+}
+.area-item img {
+  height: 8.33em;
+  padding: 0 2.5em;
+}
+.btn.more-info.blue {
+  background-color: var(--colorPrimary);
+  color: white;
+}
+.container.more-infob {
+  margin-top: 3em;
+}

@@ -1,0 +1,12 @@
+.mision {
+  margin-top: 3em;
+  text-align: center;
+  font-weight: 300;
+  padding: 0 1em;
+}
+.mision span.sub-sub {
+  background-image: linear-gradient(var(--textColor) 0%, var(--textColor) 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.5em;
+  background-position: 0 90%;
+}
