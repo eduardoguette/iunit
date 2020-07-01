@@ -1,18 +1,18 @@
 
 
-.unity-head {
-  background: url("../../assets/iunity/unity.jpg") center center no-repeat;
+.admision-head {
+  background: url("../../assets/admision-head.jpg") center center no-repeat;
   background-size: cover;
   height: 265px;
   width: 100%;
 }
-.unity-head > div {
-  background-color: var(--colorPrimaryTint);
+.admision-head > div {
+  background-color: rgba(19, 69, 110, 0.301);
   height: 100%;
 }
-.unity-head .title-yellow h2 {
+.admision-head .title-yellow h2 {
   font-weight: 500;
-  font-size: 2.4em;
+  font-size: 2em;
   font-family: "Oswald";
   color: white;
   margin-bottom: 0.9em;
