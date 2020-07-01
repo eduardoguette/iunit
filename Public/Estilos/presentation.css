@@ -49,7 +49,7 @@ hr.presentations {
   border-radius: 30px;
   width: 50px;
   height: 50px;
-  background: url("../miapp/assets/call.png") center center no-repeat, linear-gradient(to right, var(--colorPrimary), var(--colorPrimary));
+  background: url("../../assets/call.png") center center no-repeat, linear-gradient(to right, var(--colorPrimary), var(--colorPrimary));
   background-size: 25px;
   margin-left: .8em;
   margin-top: 1.5em;

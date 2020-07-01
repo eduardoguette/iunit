@@ -17,3 +17,72 @@
   color: white;
   margin-bottom: 0.9em;
 }
+
+.icons-row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.icon-colum{
+  display: flex;
+  justify-content: center;
+  width: 50px;
+}
+.icon-colum img{
+  height: 50px;
+}
+.icon-info{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -1.2em;
+}
+.icon-info img{
+ height: 40px;
+}
+
+
+.modal-perfil-grid{
+
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+}
+.prsri-btn{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.angle-inactive{
+  display: none;
+  transform: translateY(40px);
+/*   transform: translateY(0px);
+ */  transition: 0.3s;
+  will-change: transform;
+}
+.prsri-btn i{
+  margin-top: .5em;
+  font-size: 1.4em;
+  transition: 1s;
+}
+.prsri-num{
+  font-family: "Oswald";
+  color: var(--textColor);
+  font-size: 3em;
+}
+.prsri-text {
+  margin-left: .9em;
+  margin-top: .4em;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.hr-prsi-modal{
+  margin: 0;
+  border: .9px;
+}
+.trans{
+  transition: 1s;
+}
