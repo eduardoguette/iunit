@@ -43,6 +43,7 @@ section.interest {
   margin-bottom: 2em;
   margin-top: 2.2em;
   font-weight: 400;
+  border-radius: 3px;
 }
 .articles a {
 text-decoration: none;

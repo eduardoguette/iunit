@@ -11,7 +11,7 @@
   background: url("../../assets/news1.png") center no-repeat;
   background-size: cover;
 }
-.titular.news-grid2 > .imag{
+.titular.news-grid.two > .imag{
   width: auto;
   height: 200px;
   background: url("../../assets/news/informe-news.jpg") center no-repeat;

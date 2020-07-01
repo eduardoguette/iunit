@@ -1,5 +1,3 @@
-
-
 .admision-head {
   background: url("../../assets/admision-head.jpg") center center no-repeat;
   background-size: cover;
@@ -18,36 +16,36 @@
   margin-bottom: 0.9em;
 }
 
-.icons-row{
+.icons-row {
   display: flex;
   justify-content: space-between;
   align-items: center;
   text-align: center;
 }
-.icon-colum{
+.icon-colum {
   display: flex;
   justify-content: center;
   width: 50px;
 }
-.icon-colum img{
+.icon-colum img {
   height: 50px;
 }
-.icon-info{
+.icon-info {
   display: flex;
   justify-content: flex-end;
   margin-top: -1.2em;
 }
-.icon-info img{
- height: 40px;
+.icon-info img {
+  height: 40px;
+  border-radius: 40px;
+  box-shadow: rgba(124, 124, 124, 0.63) 1px 1px 25px;
 }
 
-
-.modal-perfil-grid{
-
+.modal-perfil-grid {
   display: grid;
   grid-template-columns: 10% 80% 10%;
 }
-.prsri-btn{
+.prsri-btn {
   display: grid;
   grid-template-columns: 1fr;
   justify-content: center;
@@ -55,34 +53,56 @@
   align-items: center;
 }
 
-.angle-inactive{
+.angle-inactive {
   display: none;
   transform: translateY(40px);
-/*   transform: translateY(0px);
- */  transition: 0.3s;
+  /*   transform: translateY(0px);
+ */
+  transition: 0.3s;
   will-change: transform;
 }
-.prsri-btn i{
-  margin-top: .5em;
+.prsri-btn i {
+  margin-top: 0.5em;
   font-size: 1.4em;
   transition: 1s;
 }
-.prsri-num{
+.prsri-num {
   font-family: "Oswald";
   color: var(--textColor);
   font-size: 3em;
 }
 .prsri-text {
-  margin-left: .9em;
-  margin-top: .4em;
+  margin-left: 0.9em;
+  margin-top: 0.4em;
   display: flex;
   align-items: center;
   text-align: left;
 }
-.hr-prsi-modal{
+.hr-prsi-modal {
   margin: 0;
-  border: .9px;
+  border: 0.9px;
 }
-.trans{
+.trans {
   transition: 1s;
+}
+.becas-help{
+  margin-bottom: 6em;
+}
+.becas-help p {
+  margin-top: -0.5em;
+  
+}
+.container.more-info-yellow {
+  margin-top: 2em;
+ display: flex;
+ justify-content: center;
+}
+.container.more-info-yellow a {
+  background-color: var(--btnPpal);
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 6px;
+  color: white;
+  font-weight: 600;
+  font-size: 0.9em;
 }
