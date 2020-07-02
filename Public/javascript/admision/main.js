@@ -24,3 +24,15 @@ document.querySelector('.prsri').addEventListener("click", function(e){
     console.log(e)
   }
 })
+
+
+const btnQuitForm = document.querySelector('.quit')
+btnQuitForm.addEventListener("click", function (e){
+  
+  document.getElementById('form').classList.add('is-hidden')
+})
+
+const btn_info = document.querySelector('.icon-info')
+btn_info.addEventListener("click", function(e){
+  document.getElementById('form').classList.remove('is-hidden')
+})
