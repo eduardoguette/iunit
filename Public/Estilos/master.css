@@ -1,0 +1,82 @@
+.master-nav {
+  padding-top: 3em;
+}
+
+.master-nav a {
+  color: var(--textColor);
+}
+.master-nav .router {
+  color: var(--colorPrimary);
+}
+.urja-no-footer {
+  padding-top: 2em;
+  font-size: 0.8em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+}
+img {
+  height: 2.9em;
+}
+.master-head {
+  margin-top: 2em;
+  background: url(../../assets/master-header.jpg) center center no-repeat;
+  background-size: cover;
+  height: 265px;
+  width: 100%;
+}
+.master-head div {
+  background-color: var(--colorPrimaryTint);
+  height: 100%;
+}
+.title-master-head {
+  font-family: "Oswald";
+  font-weight: 400;
+  color: var(--colorPrimary);
+  padding: 0;
+  line-height: 1.2em;
+}
+.info-master{
+  background-color: var(--cardsAqua);
+  padding: 1em 0;
+}
+.elementos-row {
+  display: grid;
+  grid-template-columns: 10% 1fr;
+  justify-content: start;
+  align-items: center;
+  padding-bottom: 1em;
+
+}
+.elementos-row span{
+  padding-left: 1em;
+}
+.elementos-row i {
+  text-align: center;
+  font-size: 1.5em;
+  color: var(--btnPpal);
+}
+.nav-master{
+  padding: 1em 0;
+}
+.container-nav-master-grid p{
+ 
+  padding: .5em 0;
+  margin: 0;
+  text-align: center;
+  cursor: pointer;
+}
+p.select_active{
+  font-weight: bold;
+  transition: .3s;
+}
+.div.hr-yellow{
+  border: 1px solid var(--btnPpal);
+}
+.hr-blue{
+  border: 1px solid var(--textColor);
+}
+.container-nav-master{
+  display: none;
+}

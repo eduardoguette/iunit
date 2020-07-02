@@ -4,10 +4,12 @@
   height: 265px;
   width: 100%;
 }
+
 .admision-head > div {
   background-color: rgba(19, 69, 110, 0.301);
   height: 100%;
 }
+
 .admision-head .title-yellow h2 {
   font-weight: 500;
   font-size: 2em;
@@ -22,14 +24,17 @@
   align-items: center;
   text-align: center;
 }
+
 .icon-colum {
   display: flex;
   justify-content: center;
   width: 50px;
 }
+
 .icon-colum img {
   height: 50px;
 }
+
 .icon-info {
   position: fixed;
   bottom: 0;
@@ -38,6 +43,7 @@
   bottom: 3em;
   left: 0; */
 }
+
 .icon-info img {
   height: 40px;
   border-radius: 40px;
@@ -48,10 +54,12 @@
   position: relative;
   top: 0.5px;
 }
+
 .modal-perfil-grid {
   display: grid;
   grid-template-columns: 10% 80% 10%;
 }
+
 .prsri-btn {
   display: grid;
   grid-template-columns: 1fr;
@@ -68,16 +76,19 @@
   transition: 0.3s;
   will-change: transform;
 }
+
 .prsri-btn i {
   margin-top: 0.5em;
   font-size: 1.4em;
   transition: 1s;
 }
+
 .prsri-num {
   font-family: "Oswald";
   color: var(--textColor);
   font-size: 3em;
 }
+
 .prsri-text {
   margin-left: 0.9em;
   margin-top: 0.4em;
@@ -85,19 +96,24 @@
   align-items: center;
   text-align: left;
 }
+
 .hr-prsi-modal {
   margin: 0;
   border: 0.9px;
 }
+
 .trans {
   transition: 1s;
 }
+
 .becas-help {
   margin-bottom: 6em;
 }
+
 .becas-help p {
   margin-top: -0.5em;
 }
+
 .container.more-info-yellow {
   margin-top: 2em;
   display: flex;
@@ -116,30 +132,32 @@ body #form {
   color: white;
   font-weight: 600;
 }
+
 .modal-dialog {
   background-color: white;
-  border: 1px solid black;
-  height: auto;
+  border: 1px solid rgb(182, 182, 182);
+  height:  auto;
   width: auto;
   position: fixed;
-  top: .5em;
-  bottom: .5em;
-  left: .5em;
-  right: .5em;
+  top: 0.5em;
+  bottom: 1em;
+  left: 0.5em;
+  right: 0.5em;
   display: flex;
   justify-content: center;
 }
+
 .modal-dialog-grid {
   display: flex;
   flex-direction: column;
-  align-content: space-between; 
+  justify-content: center;
   height: auto;
 }
+
 .container-header-form {
   display: flex;
   justify-content: space-between;
 }
-
 
 .quit {
   padding-top: 1em;
@@ -149,10 +167,11 @@ body #form {
   display: flex;
   justify-content: center;
 }
+
 .header-form {
   display: grid;
   height: auto;
-  justify-content: flex-start;
+  text-align: center;
   margin-top: 1em;
   border-left: 0.5em solid var(--btnPpal);
   margin-bottom: 0.5em;
@@ -167,24 +186,29 @@ body #form {
   font-size: 1em;
   color: (--colorPrimary);
 }
+
 .header-form h1 {
   font-size: 1.4em;
   margin-top: 0.2em;
-  margin-left: 0.22em;
+  text-align: left;
 }
+
 .m-98 {
   width: 98%;
   margin-left: auto;
   margin-right: auto;
 }
+
 .sub-title {
   font-size: 0.8em;
   margin-bottom: 0.5em;
 }
+
 .form-l {
   display: grid;
   grid-template-columns: 1fr;
 }
+
 label {
   margin-top: 0.3em;
   font-size: 0.8em;
@@ -208,14 +232,16 @@ input[type="text"] {
   align-items: center;
 }
 
-.container-text-politica{
+.container-text-politica {
   margin-left: 1.7em;
- }
+}
+
 .acept-politica input {
   padding: 5em;
   height: 2em;
   width: 1.4em;
 }
+
 select {
   font-family: "Montserrat";
   font-weight: 300;
@@ -225,9 +251,11 @@ select {
   border-radius: 4px;
   box-sizing: border-box;
 }
+
 .container-btn-form {
   padding-top: 0.5em;
 }
+
 .btn-form {
   width: 100%;
   height: 2.5em;
@@ -236,4 +264,17 @@ select {
   color: white;
   font-size: 0.9em;
   font-family: "Montserrat";
+}
+
+.container-form {
+  background-color: rgb(255, 255, 255);
+  filter: blur(100px);
+  height: 100%;
+  left: 0;
+  overflow: auto;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 0;
 }

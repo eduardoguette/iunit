@@ -10,6 +10,7 @@
 @import url("./noti-news.css");
 @import url("./iunity.css");
 @import url("./admision.css");
+@import url("./master.css");
 :root {
   --colorPrimary: #203354;
   --colorPrimaryTint: #00000093;
@@ -18,7 +19,7 @@
   --btnPpal: #f9bd4b;
   --blueAquaTra: #f7faff;
   --blueAquaTransp: #d8eeff75;
-  --textColor: #D8EEFF;
+  --textColor: #B1DCFF;
   --helpHover: #ffe680;
   --colorDate: #646363;
   --cardsAqua: #eff8ff;
