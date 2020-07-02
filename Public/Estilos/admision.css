@@ -120,21 +120,26 @@ body #form {
   background-color: white;
   border: 1px solid black;
   height: auto;
-  width: 90%;
+  width: auto;
   position: fixed;
-  top: 1em;
-  bottom: 1em;
-  left: 1em;
-  right: 1em;
+  top: .5em;
+  bottom: .5em;
+  left: .5em;
+  right: .5em;
+  display: flex;
+  justify-content: center;
 }
 .modal-dialog-grid {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between; 
+  height: auto;
 }
 .container-header-form {
   display: flex;
   justify-content: space-between;
 }
+
 
 .quit {
   padding-top: 1em;
@@ -146,7 +151,7 @@ body #form {
 }
 .header-form {
   display: grid;
-  height: 100%;
+  height: auto;
   justify-content: flex-start;
   margin-top: 1em;
   border-left: 0.5em solid var(--btnPpal);
@@ -160,6 +165,7 @@ body #form {
   margin: 0;
   margin-left: 0.3em;
   font-size: 1em;
+  color: (--colorPrimary);
 }
 .header-form h1 {
   font-size: 1.4em;
@@ -194,16 +200,22 @@ input[type="text"] {
   border-radius: 4px;
   box-sizing: border-box;
 }
+
 .acept-politica {
   font-size: 0.8em;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
-.acept-politica span {
-  margin-left: 0.4em;
-}
 
+.container-text-politica{
+  margin-left: 1.7em;
+ }
+.acept-politica input {
+  padding: 5em;
+  height: 2em;
+  width: 1.4em;
+}
 select {
   font-family: "Montserrat";
   font-weight: 300;
@@ -213,8 +225,8 @@ select {
   border-radius: 4px;
   box-sizing: border-box;
 }
-.container-btn-form{
-  padding-top: .5em;
+.container-btn-form {
+  padding-top: 0.5em;
 }
 .btn-form {
   width: 100%;
