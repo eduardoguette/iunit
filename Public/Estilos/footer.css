@@ -10,7 +10,6 @@ footer{
   display: grid;
   grid-template-columns: 1fr;
   justify-content: center;
-  align-content: center;
   text-align: center;
   align-items: center;
   margin: 1em 1em 0 1em;
@@ -34,12 +33,14 @@ footer{
 }
 p.left{
   text-align: left;
+  padding: 1em 0;
 }
 
 
 .urja img{
   margin-top: -.8em;
   height: 5em;
+  padding: 1em 0;
 }
 .urja{
   color: white;
@@ -47,12 +48,14 @@ p.left{
 .hr-footer{
   width: 90%;
   border-bottom: .0001em solid white;
+
 }
 footer p{
   text-align: center;
   font-weight: 200;
   color: white;
   font-size: .8em;
+  padding: .8em 0 ;
 }
 
 

@@ -8,7 +8,7 @@
   grid-template-columns: 1fr;
   justify-content: center;
   text-align: center;
-margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 .areas-for > h1 {
@@ -17,12 +17,11 @@ margin-bottom: 1em;
   font-size: 3.4em;
   padding: 0;
   margin: 0;
-  letter-spacing: .09em;
+  letter-spacing: 0.09em;
   text-align: center;
-  margin-left: .1em;
-
+  margin-left: 0.1em;
 }
-.title-yellow.areas-for{
+.title-yellow.areas-for {
   font-size: 1.05em;
   margin-top: -3.9em;
 }
@@ -48,7 +47,7 @@ margin-bottom: 1em;
   text-align: left;
   padding: 0 0.8em;
 }
-.area-item a {
+/* .area-item a {
   text-decoration: none;
   color: black;
   display: flex;
@@ -56,9 +55,24 @@ margin-bottom: 1em;
   align-content: center;
   align-items: center;
   padding: 0 0.8em;
-}
-.read-more {
+} */
+/* .read-more {
   text-decoration: none;
+} */
+.areas .container-read-more {
+  padding-left: .8em;
+}
+.container-read-more {
+  display: flex;
+  justify-content: start;
+  text-decoration: none;
+   padding: .8em 0em;
+}
+.btn.read-more {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: .8em;
+  color: black;
 }
 .btn.read-more:hover {
   color: var(--colorPrimary);
@@ -90,8 +104,11 @@ margin-bottom: 1em;
   padding: 0 2.5em;
 }
 .btn.more-info.blue {
+  margin-top: -1em;
   background-color: var(--colorPrimary);
   color: white;
+  font-weight: 400;
+  font-size: .8em;
 }
 .container.more-infob {
   margin-top: 3em;

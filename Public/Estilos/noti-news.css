@@ -32,7 +32,7 @@ section.interest {
   margin-top: 1em;
   margin-bottom: 6em;
 }
-.interest-grid{
+.interest-grid {
   display: grid;
   grid-template-columns: 1fr;
 }
@@ -46,11 +46,10 @@ section.interest {
   border-radius: 3px;
 }
 .articles a {
-text-decoration: none;
-color: var(--colorPrimary);
-
+  text-decoration: none;
+  color: var(--colorPrimary);
 }
-hr.div{
-  margin-top: .5em;
+hr.div {
+  margin-top: 0.5em;
   border: 1px solid var(--textColor);
 }
