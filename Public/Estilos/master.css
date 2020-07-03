@@ -142,7 +142,7 @@ p.select_active {
 .container-text-for-whom {
   background-color: var(--cardsAqua);
   margin: 0em;
-  height: 320px;
+  height: auto;
   clip-path: polygon(0% 0%, 100% 8%, 100% 100%, 100% 75%, 100% 100%, 0% 100%);
 }
 .container-text-for-whom .wrapper {
