@@ -163,15 +163,15 @@ p.select_active {
   margin-top: -0.4em;
 }
 
-.img-profile {
+.img-profile.uno {
   background: url(../../assets/profile-admision.jpg) center center no-repeat;
   background-size: cover;
   clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 96%);
   text-align: center;
-  padding-top: .4em;
+  padding-top: 0.4em;
   height: 340px;
 }
-.img-profile img {
+.img-profile.uno img {
   height: 340px;
 }
 .container-mini-stats {
@@ -382,10 +382,51 @@ tr:nth-child(odd) {
 .bluee {
   border: 1px solid red;
 }
- tr.select-tr {
+tr.select-tr {
   background-color: var(--textColor);
   font-weight: 400;
-  font-size: .98em;
+  font-size: 0.98em;
   color: var(--colorPrimary);
-  transition: .2s;
-} 
+  transition: 0.2s;
+}
+.head-nav-master-cuatro {
+  font-size: 2em;
+}
+.container-nav-master.cuatro h1 {
+  color: var(--colorPrimary);
+  font-family: "Oswald";
+  font-weight: 600;
+}
+#t-monset {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.indent {
+  text-indent: 1em;
+}
+.text-indent{
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  padding: 1em 0;
+}
+.text-indent p {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+
+/* cinco */
+.img-profile.cinco{
+  background: url(../../assets/pagando\ cinco-min.jpg) center center no-repeat;
+  background-size: cover;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 96%);
+  text-align: center;
+  padding-top: 0.4em;
+  height: 340px;
+}
+.img-profile img {
+  height: 340px;
+}
