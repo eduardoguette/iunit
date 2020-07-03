@@ -168,6 +168,7 @@ p.select_active {
   background-size: cover;
   clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 96%);
   text-align: center;
+  padding-top: .4em;
   height: 340px;
 }
 .img-profile img {
