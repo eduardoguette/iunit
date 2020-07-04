@@ -125,3 +125,9 @@ header_desplegable.addEventListener("click", function (e) {
 
 })
 
+
+
+
+/* 
+  depliega form 
+*/
