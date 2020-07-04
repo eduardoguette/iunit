@@ -95,3 +95,11 @@
   font-weight: 500;
   font-size: 2em;
 }
+#programas-urja{
+  display: grid;
+  font-size: 1em;
+  
+}
+#programas-urja > div{
+  padding: .5em 0;
+}

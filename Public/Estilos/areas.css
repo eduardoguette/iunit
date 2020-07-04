@@ -69,9 +69,11 @@
    padding: .8em 0em;
 }
 .btn.read-more {
+  display: flex;
+  align-items: center;
   text-decoration: none;
   font-weight: bold;
-  font-size: .8em;
+  font-size: .9em;
   color: black;
 }
 .btn.read-more:hover {
@@ -85,6 +87,7 @@
 }
 .btn.read-more i {
   margin-left: 0.89em;
+  font-size: 1.2em;
 }
 
 .negocio {
