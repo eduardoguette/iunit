@@ -34,7 +34,7 @@ if (document.querySelector('.container-nav-master-grid')) {
             text_div.style.display = "block"
             text_div.classList.add("active")
           } else {
-            console.log("quit")
+
             text_div.style.display = "none"
           }
         } else if (text_div.classList.contains("active")) {
@@ -51,14 +51,77 @@ if (document.querySelector('.container-nav-master-grid')) {
 }
 
 
-  var tr_table = document.querySelector('.container-table')
-  tr_table.addEventListener("click", function (e) {
+var tr_table = document.querySelector('.container-table')
+tr_table.addEventListener("click", function (e) {
 
-    e.preventDefault();
+  e.preventDefault();
 
-    document.querySelectorAll('tr.select-tr').forEach(elem =>{
-      elem.classList.remove('select-tr')
-    })
-    e.path[1].classList.add('select-tr')
-    
+  document.querySelectorAll('tr.select-tr').forEach(elem => {
+    elem.classList.remove('select-tr')
   })
+  e.path[1].classList.add('select-tr')
+
+})
+
+
+
+
+
+/* 
+  javascript test
+*/
+
+/* if (document.querySelector('div[class*="prsri"]')) {
+  const section_toggle = document.querySelector('div[class*="prsri"]')
+
+  section_toggle.addEventListener("click", function (e) {
+    e.preventDefault()
+    if (e.target.tagName == "SPAN" || e.target.tagName == "I") {
+      document.querySelectorAll('div.prsri-modal > div.modal-info').forEach(modal_info => {
+        if (modal_info.classList.contains("is-toggle")) {
+          modal_info.classList.remove("is-toggle")
+          modal_info.classList.add("angle-inactive")
+        }
+      })
+      e.path[3].querySelector('div.prsri-modal.req > div.modal-info').classList.add("angle-inactive") 
+
+
+
+      e.path[3].querySelector('.modal-info').classList.remove("angle-inactive")
+      e.path[3].querySelector('.modal-info').classList.add("is-toggle")
+      console.log(e.path[3].querySelector('.modal-info'))
+    }
+  })
+
+}  */
+
+
+/* 
+  info desplegable
+*/
+const header_desplegable = document.querySelector('.containers-ia-desp')
+header_desplegable.addEventListener("click", function (e) {
+  e.stopPropagation()
+  e.path.forEach(containter => {
+    if (containter.className === 'header-desp') {
+      if (containter.querySelector('p, .container-info > div').classList.contains('is-hidden')) {
+        containter.querySelector('p, .container-info > div').classList.remove('is-hidden')
+        containter.querySelector('i').classList.remove('fa-angle-down')
+        containter.querySelector('i').classList.add('fa-angle-up')
+        containter.querySelector('span').setAttribute("id",'selected-desple')
+        //containter.querySelector('i').classList.remove('fas fa-angle-down')
+
+      } else {
+        containter.querySelector('p, .container-info > div').classList.add('is-hidden')
+        containter.querySelector('i').classList.add('fa-angle-down')
+        containter.querySelector('i').classList.remove('fa-angle-up')
+        containter.querySelector('span').classList.add('selected-desp')
+        containter.querySelector('span').removeAttribute("id",'selected-desple')
+
+      }
+    }
+  })
+
+
+})
+

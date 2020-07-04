@@ -19,12 +19,11 @@
   --btnPpal: #f9bd4b;
   --blueAquaTra: #f7faff;
   --blueAquaTransp: #d8eeff75;
-  --textColor: #B1DCFF;
+  --textColor: #b1dcff;
   --helpHover: #ffe680;
   --colorDate: #646363;
   --cardsAqua: #eff8ff;
   font-size: 18px;
-
 }
 body {
   width: 100%;
@@ -32,13 +31,23 @@ body {
   font-family: Montserrat;
 }
 
-
 .is-hidden {
-  display: none !important;
-  overflow: hidden;
-  transition: step-start 3s;
+  height: 0;
+  
+  position: relative;
+  animation: collapse ease-in-out .3s;
+  animation-fill-mode: forwards;
 }
-
+@keyframes collapse {
+  from {
+    top: 1px;
+  }
+  to {
+    top: -40px;
+    font-size: 0em;
+    opacity: 0;
+  }
+}
 /*DASH*/
 
 .grid.mini-dash {
@@ -63,8 +72,7 @@ body {
   font-weight: 400;
 }
 
-
-.mini-dash .title-yellow{
+.mini-dash .title-yellow {
   padding-top: 2em;
 }
 .container-quote {
@@ -81,28 +89,28 @@ body {
   justify-content: center;
   align-items: center;
 }
-.container-quote p{
-  font-size: .8em;
+.container-quote p {
+  font-size: 0.8em;
   margin: 1em;
 }
 
-.container-logos{
+.container-logos {
   height: 200px;
   background: url("https://findlogovector.com/wp-content/uploads/2018/11/avature-logo-vector.png") center center no-repeat;
   background-size: 100px;
-  opacity: .4;
+  opacity: 0.4;
 }
 
-.container-title-yellow{
+.container-title-yellow {
   display: grid;
   grid-template-columns: 1fr;
- }
-.title-yellow{
+}
+.title-yellow {
   margin: auto;
   display: grid;
 }
 .title-yellow > h2 {
-  height: .2em;
+  height: 0.2em;
   width: inherit;
   padding: 0;
   font-family: "Oswald";
@@ -117,9 +125,9 @@ hr.yellow {
 .m-90 {
   width: 90%;
   margin: auto;
-}  
+}
 
-.container-pag ul li{
+.container-pag ul li {
   border: 1px solid red;
   display: flex;
 }
