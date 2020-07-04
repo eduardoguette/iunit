@@ -444,9 +444,9 @@ tr.select-tr {
   width: 100%;
 }
 
-/* cinco */
+/* cuatro */
 .img-profile.cuatro {
-  background: url(../../assets/pagando\cuatro-min.jpg) center center no-repeat;
+  background: url(../../assets/pagando-min.jpg) center center no-repeat;
   background-size: cover;
   clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 96%);
   text-align: center;
