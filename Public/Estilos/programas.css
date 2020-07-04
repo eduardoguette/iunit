@@ -103,3 +103,9 @@
 #programas-urja > div{
   padding: .5em 0;
 }
+#desp-programas, #desp-programas p{
+  padding: 1em 0;
+}
+.italic {
+  font-style: italic;
+}
