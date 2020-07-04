@@ -321,13 +321,14 @@ section.sugerencias {
   align-items: center;
   border: 2px solid var(--colorPrimary);
   border-radius: 9px;
-  color: var(--colorPrimary);
 }
 .container-sug i {
   font-size: 1.2em;
 }
 .container-sug > * {
+  color: var(--colorPrimary);
   padding: 0 0.4em;
+  text-decoration: none;
 }
 .container-sug > span {
   font-weight: bold;
