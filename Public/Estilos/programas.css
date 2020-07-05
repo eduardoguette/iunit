@@ -95,6 +95,15 @@
   font-weight: 500;
   font-size: 2em;
 }
+.spinner {
+  display: flex;
+  justify-content: center;
+  display: none;
+  text-align: center;
+}
+.spinner img{
+  height: 200px;
+}
 #programas-urja{
   display: grid;
   font-size: 1em;
