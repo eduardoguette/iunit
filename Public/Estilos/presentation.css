@@ -1,11 +1,12 @@
 .presentations {
+  
   text-align: center;
 }
 .presentations .wrapper {
   padding: 0;
   text-align: left;
 }.container-p-image{
-
+  padding-top: 8em;
   height: 360px;
   background-color: var(--blueAqua);
 }

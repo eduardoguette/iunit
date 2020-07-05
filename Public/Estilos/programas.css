@@ -121,3 +121,9 @@
 #color-desple{
   color: var(--btnPpal);
 }
+#btn-read-in-p{
+  padding-top: 1em;
+}
+#no-strech{
+  height: 100%;
+}

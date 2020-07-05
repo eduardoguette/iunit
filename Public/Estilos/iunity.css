@@ -5,6 +5,7 @@
   background-size: cover;
   height: 265px;
   width: 100%;
+  margin-top: -.1em;
 }
 .unity-head > div {
   background-color: var(--colorPrimaryTint);

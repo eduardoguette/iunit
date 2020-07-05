@@ -1,9 +1,29 @@
-.header {
-  display: flex;
-  padding: 1em 1.3em;
-  justify-content: space-between;
-  background-color: var(--colorPrimary);
+
+.header{
+  position: fixed;
+  z-index: 2;
+  width: 100%; 
 }
-img {
-  height: 45px;
+.header.fixed{
+  box-shadow: 0px 1px 5px rgb(93, 93, 93);
+
+}
+.menu {
+  /* border: 1px solid blue; */
+  width: 40px;
+  height: 40px;
+  background: url("../../assets/bars-solid.svg") no-repeat center center;
+}
+.menu-quit{
+  width: 40px;
+  height: 40px;
+  background: url("../../assets/times-solid.svg") no-repeat center center;
+}
+.continer-header-ppal{
+  display: flex;
+  padding: .80em;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--colorPrimary);
+  height: auto;
 }

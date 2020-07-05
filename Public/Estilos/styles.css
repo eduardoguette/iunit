@@ -1,5 +1,4 @@
 @import url("./header.css");
-@import url("./menu.css");
 @import url("./presentation.css");
 @import url("./mision.css");
 @import url("./areas.css");
@@ -12,12 +11,15 @@
 @import url("./admision.css");
 @import url("./master.css");
 @import url("./programas.css");
+@import url("./contacto.css");
+@import url("./responsive.css");
 :root {
   --colorPrimary: #203354;
   --colorPrimaryTint: #00000093;
   --colorPrimaryHover: #4c5c81;
   --navAboutColor: rgb(255, 255, 255);
   --btnPpal: #f9bd4b;
+  --btnPpal-transpa: #f9bc4be1;
   --blueAquaTra: #f7faff;
   --blueAquaTransp: #d8eeff75;
   --textColor: #b1dcff;
@@ -34,10 +36,9 @@ body {
 
 .is-hidden {
   height: 0;
-
   position: relative;
-  animation: collapse ease-in-out .3s;
-  animation-fill-mode: forwards;
+  animation: collapse ease-in-out 0.3s;
+  animation-fill-mode: both;
 }
 @keyframes collapse {
   from {
@@ -131,4 +132,76 @@ hr.yellow {
 .container-pag ul li {
   border: 1px solid red;
   display: flex;
+}
+
+.header-menulist {
+  background: var(--btnPpal-transpa);
+  height: auto;
+
+  position: fixed;
+  z-index: 1;
+  padding-top: 5em;
+  width: 100%;
+  margin: 0;
+  transition: 0.5s;
+}
+.no-visible {
+  display: none;
+  width: 100%;
+  margin: auto;
+}
+/* @keyframes collapse {
+  0% {
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    top: 0px;
+  }
+  100% {
+    height:auto;
+    overflow: visible;
+    opacity: 1;
+    top: 90px;
+  }
+}*/
+@keyframes courtain-down {
+  from {
+    top: auto;
+  }
+  to {
+    top: -0;
+    opacity: 0;
+  }
+}
+.container-list {
+  padding-top: 2em;
+  display: grid;
+  grid-template-columns: 1fr;
+  height: auto;
+  width: 100%;
+}
+.container-list a {
+  text-indent: 1em;
+  text-decoration: none;
+  padding: 0.7em 0;
+  color: var(--colorPrimary);
+  font-size: 0.9em;
+}
+a.no-bold {
+  font-weight: 300;
+}
+a.bold {
+  font-weight: bold;
+}
+.container-list a:visited {
+  color: var(--colorPrimary);
+}
+#btn-menu {
+  padding: 0;
+  margin: 0;
+  padding: 2em 0;
+  font-weight: 300;
+}
+#btn-menu > a {
+  font-weight: 300;
 }
