@@ -118,3 +118,6 @@
 .italic {
   font-style: italic;
 }
+#color-desple{
+  color: var(--btnPpal);
+}
