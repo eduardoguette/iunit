@@ -1,0 +1,236 @@
+@media screen and (max-width: 539px) {
+  .container-btn-call {
+    display: block;
+    margin-left: 80%;
+  }
+  .btn-btn-call,
+  .border-lef.home,
+  .areas-grid.grid,
+  #hr-left-home,
+  .btn-btn-call,
+  .dash-no-movil,
+  .border-lef-area,
+  #quote-no-movil, .logo1 {
+    display: none;
+  }
+  .container-btn-moreinfo {
+    text-align: center;
+  }
+  .areas-grid.grid.mobile,
+  .mini-dash {
+    display: block;
+  }
+  .hr-presentations {
+    width: 91%;
+    border: 1px solid var(--colorPrimary);
+  }
+}
+@media screen and (min-width: 540px) {
+  .container-info-header-home {
+    width: 90%;
+    margin: auto;
+  }
+  .container-p-title-h1 {
+    font-size: 0.9em;
+    text-align: left;
+  }
+  .hr-presentations {
+    margin-left: 0.9em;
+    border: 1px solid black;
+
+    text-align: left;
+  }
+  div[class="container-btn-moreinfo"] {
+    text-align: center;
+  }
+  .areas-grid.grid.mobile,
+  .btn-btn-call,
+  .title-yellow.areas-for,
+  .mini-dash,
+  #border-iunity,
+  #quote-movil {
+    display: none;
+  }
+  .area-item {
+    display: flex;
+    background-color: white;
+    height: 50%;
+    padding: 0;
+    margin: 0;
+    margin: 1em 0;
+  }
+  .container-area {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .area-item img {
+    margin: 0;
+    padding: 0;
+    height: 140px;
+  }
+  .area-item.tec {
+    background-color: var(--colorCardTech);
+  }
+  .areas-for h1 {
+    font-size: 100%;
+    font-size: 4.5em;
+    text-align: center;
+    padding-left: 0.1em;
+  }
+  #hr-left-home {
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+    display: block;
+    border-left: 3px solid var(--btnPpal);
+    color: var(--colorPrimary);
+    text-align: left;
+    padding-left: 0.4em;
+    font-weight: 600;
+    font-size: 1.4em;
+    letter-spacing: 0;
+    margin-top: -2.5em;
+    font-family: "Oswald";
+    margin-left: 0.6em;
+  }
+  .dash-no-movil {
+    padding: 2em 0;
+  }
+  .dash-grid-no-movil {
+    background: linear-gradient(rgba(228, 228, 228, 0.678), rgba(228, 228, 228, 0.678)), url("../../assets/dash.jpg") center center no-repeat;
+    background-size: cover;
+    background-position: 80% 80%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: var(--colorPrimary);
+  }
+  .desc-text-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .desc-circle {
+    order: 1;
+  }
+  .container-desc-about p {
+    font-size: 0.9em;
+    font-weight: 300;
+  }
+  .border-lef-area {
+    border-left: 6px solid var(--btnPpal);
+    padding-left: 0.3em;
+    font-family: "Oswald";
+    color: var(--colorPrimary);
+    font-weight: 700;
+  }
+  #news-section,
+  .schedule-grid.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+  }
+  #news-section .titular {
+    padding: 0 0.3em;
+  }
+  .schedule-grid.grid .card-schedule {
+    height: 100%;
+    margin: 0 0.4em;
+  }
+  .btn-categoria {
+    background-color: var(--colorDate);
+    color: white;
+  }
+  .wrapper-quote {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+  .img-quote {
+    padding: 0;
+    margin: 0;
+    height: 270px;
+    background: url(../../assets/quote.jpg) center center no-repeat;
+    background-size: contain;
+    display: relative;
+    background-size: contain;
+  }
+  .container-q-text {
+    background-color: #eff8ff;
+    position: relative;
+    padding: 1em;
+    margin-left: -4em;
+    font-size: 0.7em;
+    text-align: center;
+    height: auto;
+  }
+}
+/* @media screen and (min-width: 1024px) {
+  body {
+    width: 100%;
+    margin: auto;
+  }
+  .grid-presentation {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .container-info-header-home {
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    font-size: 0.8em;
+  }
+  .container-titular {
+    padding-top: 4em;
+  }
+  .p-title-h1 {
+    width: 8em;
+    text-align: left;
+  }
+  .hr-presentations {
+    border-top: 1px solid black;
+  }
+  .container-p-description {
+    width: 25em;
+  }
+  .container-info-header-home:last-child {
+    padding: 1em;
+    text-align: right;
+  }
+  .container-btn-call,
+  .title-yellow.areas-for {
+    display: none;
+  }
+  .btn-btn-call {
+    display: block;
+  }
+  .areas-for h1 {
+    margin: 0;
+    padding: 0;
+  }
+  .areas-for h1 {
+    font-size: 100%;
+    font-size: 8em;
+    text-align: center;
+    padding-left: 0.1em;
+  }
+  #hr-left-home {
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+    display: block;
+    border-left: 3px solid var(--btnPpal);
+    color: var(--colorPrimary);
+    text-align: left;
+    padding-left: 0.4em;
+    font-weight: 600;
+    font-size: 1.4em;
+    letter-spacing: 0;
+    margin-top: -4em;
+    font-family: "Oswald";
+    margin-left: 0.6em;
+  }
+} */

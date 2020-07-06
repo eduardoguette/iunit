@@ -16,7 +16,7 @@
   background-color:var(--blueAquaTra);
 
 }
-.desc-text-img > p{
+.desc-text-img  p{
   font-weight: 400;
   padding: 1em 0;
 }

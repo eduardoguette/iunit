@@ -52,8 +52,8 @@ hr.presentations {
   height: 50px;
   background: url("../../assets/call.png") center center no-repeat, linear-gradient(to right, var(--colorPrimary), var(--colorPrimary));
   background-size: 25px;
-  margin-left: .8em;
-  margin-top: 1.5em;
+  margin-left: 76%;
+  margin-top: -1em;
 }
 
 .btn.more-info {
